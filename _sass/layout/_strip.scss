@@ -1,0 +1,91 @@
+///
+/// Forty by HTML5 UP
+/// html5up.net | @ajlkn
+/// Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+///
+
+/* Strip */
+
+#strip {
+	
+	> .inner {
+		@include vendor('display', 'flex');
+	
+
+.newsletter {
+	display:inline;
+}
+
+.newsletter-input {
+  vertical-align: top;
+  outline: 0;
+  margin: 0;
+  /* padding: 15px 0 15px 10px; */
+  border: 1px solid transparent;
+  -webkit-transition: border-color 0.2s ease, color 0.2s ease, padding-left 0.2s ease;
+  transition: border-color 0.2s ease, color 0.2s ease, padding-left 0.2s ease;
+  &::-webkit-input-placeholder {
+    /* WebKit browsers */
+    color: #999;
+  }
+  &:-moz-placeholder {
+    /* Mozilla Firefox 4 to 18 */
+    color: #999;
+  }
+  &::-moz-placeholder {
+    /* Mozilla Firefox 19+ */
+    color: #999;
+  }
+  &:-ms-input-placeholder {
+    /* Internet Explorer 10+ */
+    color: #999;
+  }
+  &:hover, &:focus {
+    padding-left: 22px;
+    border: 1px solid #ccc;
+    color: #333;
+  }
+  &:hover::-webkit-input-placeholder, &:focus::-webkit-input-placeholder {
+    /* WebKit browsers */
+    color: #555;
+  }
+  &:hover:-moz-placeholder, &:focus:-moz-placeholder {
+    /* Mozilla Firefox 4 to 18 */
+    color: #555;
+  }
+  &:hover::-moz-placeholder, &:focus::-moz-placeholder {
+    /* Mozilla Firefox 19+ */
+    color: #555;
+  }
+  &:hover:-ms-input-placeholder {
+    /* Internet Explorer 10+ */
+    color: #555;
+  }
+  &:focus {
+    &:-ms-input-placeholder {
+      /* Internet Explorer 10+ */
+      color: #555;
+    }
+    border-color: #999;
+  }
+}
+
+.newsletter-send {
+  vertical-align: top;
+  -webkit-appearance: none;
+  border: 0;
+  margin: 0 0 0 24px;
+  padding: 0 26px;
+  opacity: 0;
+  -webkit-transition: opacity 0.2s ease;
+  transition: opacity 0.2s ease;
+}
+
+.newsletter-input {
+  &:focus + .newsletter-send, &:hover + .newsletter-send, &:not(:empty) + .newsletter-send {
+    opacity: 1;
+  }
+}
+
+}
+}

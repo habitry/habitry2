@@ -1,0 +1,28 @@
+<section id="habits" class="tiles">
+	{% for habit in site.habits limit:site.tiles-count | sort: "display-order" %}
+	{% if site.tiles-source == 'habits' %}
+        <article>
+                <span class="image">
+                        <img src="{{ habit.image }}" alt="" />
+                </span>
+                <header class="major">
+                        <h3><a href="{{ habit.url  | relative_url }}" class="link">{{ habit.title }}</a></h3>
+                        <p>{{ habit.description }}</p>
+                </header>
+        </article>
+	{% endif %}
+	{% endfor %}
+<!--	{% for page in site.pages limit:site.tiles-count %}
+	{% if site.tiles-source == 'pages' %}
+        <article>
+                <span class="image">
+                        <img src="{{ page.image }}" alt="" />
+                </span>
+                <header class="major">
+                        <h3><a href="{{ page.url | relative_url  }}" class="link">{{ page.title }}</a></h3>
+                        <p>{{ page.description }}</p>
+                </header>
+        </article>
+	{% endif %}
+	{% endfor %} -->
+</section>

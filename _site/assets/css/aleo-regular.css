@@ -1,0 +1,8 @@
+/*!
+ *  Alessio Laiso */
+
+@font-face {
+  font-family: 'Aleo-Regular';
+  src:  url('../fonts/aleo/aleo-regular-webfont.woff2') format('woff2'),
+        url('../fonts/aleo/aleo-regular-webfont.woff') format('woff');
+}

@@ -1,0 +1,83 @@
+/*!
+ *  © Copyright Fabian De Smet - 2015. All Rights Reserved. */
+
+@font-face {
+    font-family: 'butler_stencilblack';
+    src: url('../fonts/butler-stencil/butler_black_stencil-webfont.woff2') format('woff2'),
+         url('../fonts/butler-stencil/butler_black_stencil-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'butler_stencilbold';
+    src: url('../fonts/butler-stencil/butler_bold_stencil-webfont.woff2') format('woff2'),
+         url('../fonts/butler-stencil/butler_bold_stencil-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'butler_stencilextrabold';
+    src: url('../fonts/butler-stencil/butler_extrabold_stencil-webfont.woff2') format('woff2'),
+         url('../fonts/butler-stencil/butler_extrabold_stencil-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'butler_stencillight';
+    src: url('../fonts/butler-stencil/butler_light_stencil-webfont.woff2') format('woff2'),
+         url('../fonts/butler-stencil/butler_light_stencil-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'butler_stencilmedium';
+    src: url('../fonts/butler-stencil/butler_medium_stencil-webfont.woff2') format('woff2'),
+         url('../fonts/butler-stencil/butler_medium_stencil-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'butler_stencilregular';
+    src: url('../fonts/butler-stencil/butler_regular_stencil-webfont.woff2') format('woff2'),
+         url('../fonts/butler-stencil/butler_regular_stencil-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'butler_stencilultralight';
+    src: url('../fonts/butler-stencil/butler_ultra_light_stencil-webfont.woff2') format('woff2'),
+         url('../fonts/butler-stencil/butler_ultra_light_stencil-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}

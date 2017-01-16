@@ -1,0 +1,84 @@
+/*!
+ *  © Copyright Fabian De Smet - 2015. All Rights Reserved. */
+
+@font-face {
+    font-family: 'clear_sansbold';
+    src: url('../fonts/clear-sans/ClearSans-Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'clear_sansbolditalic';
+    src: url('../fonts/clear-sans/ClearSans-BoldItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'clear_sansitalic';
+    src: url('../fonts/clear-sans/ClearSans-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'clear_sanslight';
+    src: url('../fonts/clear-sans/ClearSans-Light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'clear_sansmedium';
+    src: url('../fonts/clear-sans/ClearSans-Medium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'clear_sansmediumitalic';
+    src: url('../fonts/clear-sans/ClearSans-MediumItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'clear_sans';
+    src: url('../fonts/clear-sans/ClearSans-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'clear_sansthin';
+    src: url('../fonts/clear-sans/ClearSans-Thin.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
