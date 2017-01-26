@@ -10,61 +10,62 @@
 	
 	> .inner {
 		@include vendor('display', 'flex');
+		background-color: _palette(bg);
 	
 
 .newsletter {
-	display:inline;
+	display:inherit;
 }
 
 .newsletter-input {
   vertical-align: top;
   outline: 0;
   margin: 0;
-  /* padding: 15px 0 15px 10px; */
   border: 1px solid transparent;
   -webkit-transition: border-color 0.2s ease, color 0.2s ease, padding-left 0.2s ease;
   transition: border-color 0.2s ease, color 0.2s ease, padding-left 0.2s ease;
-  &::-webkit-input-placeholder {
+ &::-webkit-input-placeholder {
     /* WebKit browsers */
-    color: #999;
+ /*      color: color: _palette(fg); */
   }
   &:-moz-placeholder {
     /* Mozilla Firefox 4 to 18 */
-    color: #999;
+/*    color: color: _palette(fg); */
   }
   &::-moz-placeholder {
     /* Mozilla Firefox 19+ */
-    color: #999;
+/*    color: color: _palette(fg); */
   }
   &:-ms-input-placeholder {
     /* Internet Explorer 10+ */
-    color: #999;
+/*    color: color: _palette(fg); */
   }
   &:hover, &:focus {
     padding-left: 22px;
     border: 1px solid #ccc;
-    color: #333;
+	    box-shadow: none;
+ /*   color: #333; */
   }
   &:hover::-webkit-input-placeholder, &:focus::-webkit-input-placeholder {
     /* WebKit browsers */
-    color: #555;
+/*    color: #555; */
   }
   &:hover:-moz-placeholder, &:focus:-moz-placeholder {
     /* Mozilla Firefox 4 to 18 */
-    color: #555;
+/*    color: #555; */
   }
   &:hover::-moz-placeholder, &:focus::-moz-placeholder {
     /* Mozilla Firefox 19+ */
-    color: #555;
+ /*   color: #555; */
   }
   &:hover:-ms-input-placeholder {
     /* Internet Explorer 10+ */
-    color: #555;
+/*    color: #555; */
   }
   &:focus {
     &:-ms-input-placeholder {
       /* Internet Explorer 10+ */
-      color: #555;
+/*      color: #555; */
     }
     border-color: #999;
   }

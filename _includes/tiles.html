@@ -2,9 +2,9 @@
 	{% for habit in site.habits limit:site.tiles-count | sort: "display-order" %}
 	{% if site.tiles-source == 'habits' %}
         <article>
-                <span class="image">
+           <!--    <span class="image">
                         <img src="{{ habit.image }}" alt="" />
-                </span>
+                </span> -->
                 <header class="major">
                         <h3><a href="{{ habit.url  | relative_url }}" class="link">{{ habit.title }}</a></h3>
                         <p>{{ habit.description }}</p>

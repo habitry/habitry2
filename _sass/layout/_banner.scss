@@ -8,10 +8,10 @@
 
 	#banner {
 		@include vendor('align-items', 'center');
-		@include vendor('background-image', 'url("../images/bgsprout.jpg")');
+		@include vendor('background-image', 'url("../images/v_sprout.png")');
 		@include vendor('display', 'flex');
 		@include padding(4em, 0, (2em, 0, 0, 0));
-		@include background-2x( '../images/bgsprout', 'jpg');
+		@include background-2x( '../images/v_sprout', 'png');
 		background-attachment: fixed;
 		background-position: center;
 		background-repeat: no-repeat;
@@ -34,7 +34,7 @@
 			display: block;
 			height: 100%;
 			left: 0;
-			opacity: 0.65;
+			opacity: 0.065;
 			position: absolute;
 			top: 0;
 			width: 100%;
@@ -157,6 +157,8 @@
 				height: auto;
 				min-height: 0;
 				max-height: none;
+				background-position: 100% -15%;
+				background-size: auto 114%;
 			}
 		}
 
@@ -175,6 +177,8 @@
 
 			&.major {
 				@include padding(6em, 0, (2em, 0, 0, 0));
+				background-position: 107% 110%;
+				    background-size: auto 43%;
 			}
 		}
 	}

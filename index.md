@@ -8,5 +8,5 @@ image: null
 author: null
 ---
 
-Isn't life just more fun when you're learning? At habitry, we make 14-day learning experiences that help people like you learn new habits. Life habits. Adult habits. Better human-being habits. Join in on one of our "Habits that Matter" and we'll send you daily activities and challenges designed to get you thinking, reflecting, and living your best life.
+Isn't life just more fun when you're learning? At habitry, we make personalized 14-day learning experiences that help people like you learn new habits. Life habits. Adult habits. Better human-being habits. Join in on one of our "Habits that Matter" and we'll send you daily activities and challenges designed to get you thinking, reflecting, and living your best life.
 

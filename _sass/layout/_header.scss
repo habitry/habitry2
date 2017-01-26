@@ -13,7 +13,7 @@
 
 	#header {
 		@include vendor('display', 'flex');
-		background-color: _palette(bg-alt);
+		background-color: _palette(bg);
 		box-shadow: 0 0 0.25em 0 rgba(0,0,0,0.15);
 		cursor: default;
 		font-weight: _font(weight);
@@ -27,6 +27,7 @@
 		top: 0;
 		width: 100%;
 		z-index: _misc(z-index-base);
+		color: _palette(highlight);
 
 		.logo {
 			border: 0;
@@ -70,7 +71,8 @@
 			font-size: 1em;
 			display: inline-block;
 			border: none;
-			padding: 2px
+			padding: 2px;
+			color: _palette(fg);
 		}
 
 		nav {
@@ -89,6 +91,7 @@
 				padding: 0 0.75em;
 				position: relative;
 				vertical-align: middle;
+				color: _palette(fg);
 
 				&:last-child {
 					padding-right: 1.5em;
