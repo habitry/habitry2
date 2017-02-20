@@ -1,0 +1,23 @@
+/*!
+ *  © Copyright Fabian De Smet - 2015. All Rights Reserved. */
+
+@font-face {
+    font-family: 'discipuli-britannica';
+    src: url('../fonts/discipuli-britannica/discipuli-britannica.woff') format('woff');
+	font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'discipuli-britannica_bold';
+    src: url('../fonts/discipuli-britannica/discipuli-britannica_bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+

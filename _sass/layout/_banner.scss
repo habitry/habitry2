@@ -12,7 +12,7 @@
 		@include vendor('display', 'flex');
 		@include padding(4em, 0, (2em, 0, 0, 0));
 		@include background-2x( '../images/v_sprout', 'png');
-		background-attachment: fixed;
+		background-attachment: scroll;
 		background-position: center;
 		background-repeat: no-repeat;
 		background-size: cover;
@@ -126,7 +126,7 @@
 			}
 		}
 
-		@include breakpoint(large) {
+		@include breakpoint(xlarge) {
 			background-attachment: scroll;
 		}
 

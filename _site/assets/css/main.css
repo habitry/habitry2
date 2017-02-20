@@ -3,6 +3,7 @@
 @import url(clear-sans.css);
 @import url(butler.css);
 @import url(butler-stencil.css);
+@import url(discipuli-britannica.css);
 @import url("https://fonts.googleapis.com/css?family=Lato");
 /*
 	Forty by HTML5 UP
@@ -1318,7 +1319,7 @@ p {
 
 h1, h2, h3, h4, h5, h6 {
   color: #404040;
-  font-weight: 600;
+  font-weight: 300;
   line-height: 1.65;
   margin: 0 0 1em 0; }
   h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -2308,7 +2309,8 @@ button,
     line-height: inherit;
     padding: 0px .25em 1.5em 1.5em;
     /* font-variant: small-caps; */
-    text-transform: lowercase; }
+    text-transform: lowercase;
+    /* letter-spacing:0em!important; */ }
     #header .logo strong {
       -moz-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
       -webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
@@ -2482,7 +2484,7 @@ button,
   background-size: auto auto;
   background-position: left top;
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-attachment: scroll;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -2590,7 +2592,7 @@ button,
     -ms-transform: translateX(-0.5em);
     transform: translateX(-0.5em);
     opacity: 0; }
-  @media screen and (max-width: 1280px) {
+  @media screen and (max-width: 1680px) {
     #banner {
       background-attachment: scroll; } }
   @media screen and (max-width: 736px) {
